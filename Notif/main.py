@@ -23,7 +23,7 @@ else:
     print("No, the number is in between", lower, "and", upper)
 
 
-guess = input("Guess the number: ")
+guess = int(input("Guess the number: "))
 
 if guess == num:
     notif_title = "You Won"
